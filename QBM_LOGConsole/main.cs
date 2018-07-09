@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace QBM_LOGConsole
 {//
-    class Program
+    class main
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
