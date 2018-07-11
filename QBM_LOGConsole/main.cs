@@ -15,8 +15,13 @@ namespace QBM_LOGConsole
             loadA.closeDB();
             Console.WriteLine("point1");
 
+            String[] inputData = new string[4];
+
+            reviseClass reviseData = new reviseClass(loadA.conExcel(),inputData);
+
             reviseDB_ZB reviseA = new reviseDB_ZB();
-            reviseA.fillDB(loadA.conExcel(), "Sheet1$");
+            reviseA.UpdateTable(loadA.conExcel(), "Sheet1$",reviseData);
+            
             Console.WriteLine("point2");
 
 

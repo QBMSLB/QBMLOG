@@ -75,9 +75,9 @@ namespace QBM_LOGConsole
             Console.WriteLine("error:" + error);
                 // Show results on screen
                 Console.WriteLine(prediction.ToZeroOne());
-            ScatterplotBox.Show("Training data", inputs, outputInt);//这个窗口用于显示学习数据
 
-            ScatterplotBox.Show("SVM results", inputs, prediction.ToZeroOne());
+                //ScatterplotBox.Show("SVM results", inputs, prediction.ToZeroOne());
+                //svm.Decide();测试
                
 
 

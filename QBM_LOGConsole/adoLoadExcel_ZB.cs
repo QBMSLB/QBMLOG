@@ -25,8 +25,6 @@ namespace QBM_LOGConsole
             da.Fill(ds);
             return ds;
 
-
-
         }
 
         public void closeDB()

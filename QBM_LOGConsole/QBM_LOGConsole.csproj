@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="adoLoadExcel_ZB.cs" />
     <Compile Include="insertDB_ZB.cs" />
+    <Compile Include="reviseClass.cs" />
     <Compile Include="reviseDB_ZB.cs" />
     <Compile Include="main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
